@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="juliahub-logo-small-centered.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   width="24"
+   height="24">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Untitled-1</dc:title>
+        <dc:title>Untitled-1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10">
+    <linearGradient
+       id="linearGradient839"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop837" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1737"
+     inkscape:window-height="1157"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="31.5"
+     inkscape:cx="10.906573"
+     inkscape:cy="12.226066"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <title
+     id="title2">Untitled-1</title>
+  <path
+     d="M 17.541845,1.413881 V 8.9765939 H 9.8278791 V 1.413881 H 5.7251058 v 14.463688 a 4.8590428,4.8590428 0 0 1 -0.5861103,2.64695 2.2310002,2.2310002 0 0 1 -1.8906783,0.831899 8.5458654,8.5458654 0 0 1 -1.890678,-0.264694 V 22.51385 A 8.6025855,8.6025855 0 0 0 3.7966141,22.816358 5.6720344,5.6720344 0 0 0 8.390962,21.039121 7.5627126,7.5627126 0 0 0 9.9413201,15.858662 V 12.45544 h 7.6005249 v 8.375706 h 4.10277 V 1.413881 Z"
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="path4" />
+</svg>

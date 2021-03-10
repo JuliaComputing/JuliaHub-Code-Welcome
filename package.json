@@ -28,9 +28,53 @@
                 }
             }
         },
-        "commands": {
-            "command": "juliahub-welcome.show",
-            "title": "JuliaHub: Show welcome page"
+        "commands": [
+            {
+                "command": "juliahub-welcome.show",
+                "title": "JuliaHub: Show welcome page"
+            },
+            {
+                "command": "juliahub-welcome.startApp",
+                "title": "JuliaHub: Start App",
+                "icon": "$(play)"
+            },
+            {
+                "command": "juliahub-welcome.openApp",
+                "title": "JuliaHub: Open App URL",
+                "icon": "$(globe)"
+            }
+        ],
+        "menus": {
+            "view/item/context": [
+                {
+                    "command": "juliahub-welcome.startApp",
+                    "when": "view == juliahub-welcome.appstarter && viewItem == 'status-default'",
+                    "group": "inline"
+                },
+                {
+                    "command": "juliahub-welcome.openApp",
+                    "when": "view == juliahub-welcome.appstarter && viewItem == 'status-running'",
+                    "group": "inline"
+                }
+            ]
+        },
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "juliahub-container",
+                    "title": "JuliaHub",
+                    "icon": "juliahub-logo-small-centered.svg"
+                }
+            ]
+        },
+        "views": {
+            "juliahub-container": [
+                {
+                    "type": "tree",
+                    "id": "juliahub-welcome.appstarter",
+                    "name": "Start App"
+                }
+            ]
         }
     },
     "scripts": {

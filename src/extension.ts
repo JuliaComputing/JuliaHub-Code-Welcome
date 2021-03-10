@@ -1,11 +1,13 @@
 import * as vscode from 'vscode'
 import * as welcome from './welcome'
+import * as startAppView from './startAppView'
 
 const shutdownWarnInterval = 55000 // ms
 let shutdownWarner: NodeJS.Timeout|undefined = undefined
 
 export function activate(context: vscode.ExtensionContext) {
     welcome.activate(context)
+    startAppView.activate(context)
     shutdownWarner = setInterval(shutdownWarn, shutdownWarnInterval)
 }
 
